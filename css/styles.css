@@ -675,6 +675,7 @@ img {
 
   .footer-section {
     padding: 100px 0;
+    width: 100%;
   }
 
   .footer-wrap {
@@ -830,7 +831,8 @@ img {
   visibility: visible;
   pointer-events: auto;
 }
-.modal {
+.modal,
+.mobile-menu {
   position: absolute;
   top: 50%;
   left: 50%;
