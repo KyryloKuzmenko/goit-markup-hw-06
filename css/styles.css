@@ -285,6 +285,16 @@ img {
   }
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url("../images/x2/people-office@2x.jpg");
+  }
+  
+}
+
 /* Benefit section */
 .visually-hidden {
   position: absolute;
@@ -852,7 +862,7 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 0;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
